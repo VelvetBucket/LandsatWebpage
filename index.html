@@ -8,11 +8,11 @@
         </head>
         <body>
             <h1>Landsat webpage</h1>
-            <form action="/url" method="GET">
+            <form action="/result.html" method="GET">
                 <label for="long">Longitude:</label>
-                <input required type="number" id="long" name="long" step="any" min="-180.0" max="180.0" placeholder="0.00">
+                <input required type="number" id="long" name="long" step="any" value="0.0" min="-180.0" max="180.0" placeholder="0.00">
                 <label for="lat">Latitude:</label>
-                <input required type="number" id="lat" name="lat" step="any" min="-90.0" max="90.0" placeholder="0.00">
+                <input required type="number" id="lat" name="lat" step="any" value="0.0" min="-90.0" max="90.0" placeholder="0.00">
                 <button type="Submit"> Submit</button>
             </form>
         </body>
